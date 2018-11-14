@@ -15,11 +15,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         sunView = findViewById(R.id.weather_view);
         sunView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                sunView.startAnim();
+//                sunView.startAnim();
             }
         });
     }
